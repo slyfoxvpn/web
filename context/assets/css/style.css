@@ -112,17 +112,18 @@
 
 /*--------------Main start-------------------*/
 .main {
-    width: 80%;
-    margin: 0 auto;
+    /* width: 80%;
+    margin: 0 auto; */
 }
 .main__block-hero {
     display: flex;
     justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
     margin-top: 100px;
-    width: 100%;
+    margin-bottom: 200px;
 }
-.block-hero__left {
-}
+
 .left-header {
     width: 80%;
     font-size: 1.7vw;
@@ -130,20 +131,48 @@
     margin-bottom: 5%;    
 }
 .left-body {
-    
     width: 80%;
     font-size: 1.3vw;
 }
-.left-footer {
-}
-.block-hero__right {
-}
-.right-block-img {
-}
+
 .right-img {
     object-fit: cover;
     max-width: 100%;
 }
+
+
+
+
+.main__block-about {
+    width: 100%;
+    margin: 0 auto 200px;
+    height: 550px;
+    overflow: hidden;
+    box-shadow: black;
+    background-color: #ebebeb;
+}
+.block-about-header {
+    text-align: center;
+    font-size: 2.5vw;
+    padding-top: 3%;
+    margin-bottom: 3%;
+}
+.block-about-text {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.block-about-img {
+    width: 80%;
+    margin: 0 auto;
+}
+.about-img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+
+
 
 
 /*--------------Main end-------------------*/
