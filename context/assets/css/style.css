@@ -70,20 +70,29 @@
     width: 100%;
     display: none;
     position: absolute;
-    top: 0;
+    top: -200%;
     right: 0;
     background-color: #fff;
-    transform: translateY(100%);
+    transition: transform .4s;
 }
 .overflow-body {
     overflow: hidden;
 }
-.hide{
-    transform: translateX(0);
+.burger-menu-block{
+    display: block;
 }
+
+.burger-menu-block.hide{
+    transform: translateY(200%);
+}
+
+
+
+
 .burger-menu-block-list {
     margin-top: 20vh;
 }
+
 .burger-menu-item {
     display: flex;
     justify-content: center;
