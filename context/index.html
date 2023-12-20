@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SlyFox VPN</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/adaptive.css">
 </head>
 <body>
   <div class="container">
@@ -17,18 +18,60 @@
       </div>
       <div class="header__menu">
         <ul class="header__menu-list">
-          <li class="header__menu-item">Главная</li>
-          <li class="header__menu-item">Состояние серверов</li>
-          <li class="header__menu-item">Прайс</li>
-          <li class="header__menu-item">O VPN</li>
-          <li class="header__menu-item">Еще что-то</li>
+          <li class="header__menu-item"><a href="/" class="header__menu-link">Главная</a></li>
+          <li class="header__menu-item"><a href="/"  class="header__menu-link">Состояние серверов</a></li>
+          <li class="header__menu-item"><a href="/"  class="header__menu-link">Прайс</a></li>
+          <li class="header__menu-item"><a href="/"  class="header__menu-link">O VPN</a></li>
+
+          <li class="header__menu-item adaptive-buttons">
+            <a href="/" class="header__buttons-sign-in">Вход</a>
+          </li>
+          <li class="header__menu-item language">
+            <i class="fa-solid fa-earth-americas"></i>
+            Rus
+          </li>
+          <li class="header__menu-item burger-menu">
+            <i class="fa-solid fa-bars"></i>
+          </li>
         </ul>
       </div>
       <div class="header__buttons">
-        <a href="" class="header__buttons-sign-in">Sign-in</a>
-        <a href="" class="header__buttons-sign-up">Sign-up</a>
+        <a href="" class="header__buttons-sign-in">Вход</a>
+        <a href="" class="header__buttons-sign-up">Регистрация</a>
       </div>
     </div>
+
+
+
+    <main class="main">
+      <div class="main__block-hero">
+        <div class="block-hero__left">
+          <div class="left-header">
+            <h1>Инициативный проект VPN</h1>
+          </div>
+          <div class="left-body"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ad cum id ipsam sequi hic, accusamus, debitis dolorum doloremque repellendus enim, excepturi dicta vel magni!</p></div>
+          <div class="left-footer"></div>
+        </div>
+        <div class="block-hero__right">
+          <div class="right-block-img">
+            <img src="assets/images/bootstrap-themes.png" alt="vpn" class="right-img" >
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="main__block-about">
+        <div class="block-about-header"><h3>Что такое VPN?</h3></div>
+        <div class="block-about-text"><p>VPN, или виртуальная частная сеть, представляет собой защищенный туннель между вашим устройством и Интернетом. VPN защищают вас от слежки, помех и цензуры.Когда вы подключаетесь к защищенному VPN-серверу, ваш интернет-трафик проходит через зашифрованный туннель, в который никто не может заглянуть, включая хакеров, правительства и вашего интернет-провайдера.</p></div>
+        <div class="block-about-img">
+          <img class="about-img" src="assets/images/bootstrap-themes.png" alt="">
+        </div>
+      </div>
+    </main>
   </div>
+
+
+  <script src="https://kit.fontawesome.com/a27a0b0318.js" crossorigin="anonymous"></script>
 </body>
 </html>

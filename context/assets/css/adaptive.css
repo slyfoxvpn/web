@@ -1,0 +1,90 @@
+/*--------------Adaptive start-------------------*/
+@media (max-width:1024px) {
+    .header {
+        padding: 0 20px;
+        font-size: 1.7vw;
+    }
+
+    .left-header {
+        font-size: 2vw;
+    }
+    .left-body {
+        font-size: 1.6vw;
+    }
+
+
+}
+
+@media (max-width:810px) {
+    .header {
+        font-size: 2.3vw;
+    }
+    .header__menu-item {
+        display: none;
+        margin: 0;
+    }
+    .burger-menu {
+        display: block;
+        margin-left: 1rem;
+    }
+    .language {
+        display: block;
+        margin-left: 1rem;
+    }
+    .adaptive-buttons {
+        display: block;
+    }
+    .header__buttons {
+        display: none;
+    }
+    .fa-earth-americas {
+        font-size: 1.7vw;
+    }
+
+
+    .main__block-hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .left-header {
+        width: 100%;
+        font-size: 2.8vw;
+        text-align: center;
+    }
+    .left-body {
+        width: 100%;
+        text-align: center;
+        font-size: 2.4vw;
+    }
+
+}
+
+@media (max-width:500px) {
+    .header {
+        font-size: 3.4vw;
+    }
+    .fa-earth-americas {
+        font-size: 2.9vw;
+    }
+
+
+    .left-header {
+        font-size: 3.5vw;
+    }
+    .left-body {
+        font-size: 3vw;
+    }
+}
+
+
+@media (max-width:376px) {
+
+    .left-header {
+        font-size: 5vw;
+    }
+    .left-body {
+        font-size: 4vw;
+    }
+}
+/*--------------Adaptive end-------------------*/
