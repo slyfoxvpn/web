@@ -1,0 +1,46 @@
+/*--------------Adaptive start-------------------*/
+@media (max-width:1024px) {
+    .header {
+        padding: 0 20px;
+        font-size: 1.7vw;
+    }
+
+}
+
+@media (max-width:768px) {
+    .header {
+        font-size: 2.3vw;
+    }
+    .header__menu-item {
+        display: none;
+        margin: 0;
+    }
+    .burger-menu {
+        display: block;
+        margin-left: 1rem;
+    }
+    .language {
+        display: block;
+        margin-left: 1rem;
+    }
+    .adaptive-buttons {
+        display: block;
+    }
+    .header__buttons {
+        display: none;
+    }
+    .fa-earth-americas {
+        font-size: 1.7vw;
+    }
+}
+
+@media (max-width:480px) {
+    .header {
+        font-size: 3.4vw;
+    }
+    .fa-earth-americas {
+        font-size: 2.9vw;
+        
+    }
+}
+/*--------------Adaptive end-------------------*/
