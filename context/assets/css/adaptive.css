@@ -27,6 +27,10 @@
         display: block;
         margin-left: 1rem;
     }
+    .fa-bars {
+        font-size: 20px;
+        
+    }
     .language {
         display: block;
         margin-left: 1rem;
@@ -40,6 +44,16 @@
     .fa-earth-americas {
         font-size: 1.7vw;
     }
+    .fa-xmark {
+        font-size: 3vw;
+    }
+    .burger-menu-block{
+        display: none;
+    }
+    .burger-menu-block.hide{
+        display: block;
+    }
+
 
 
     .main__block-hero {
@@ -64,10 +78,15 @@
     .header {
         font-size: 3.4vw;
     }
-    .fa-earth-americas {
-        font-size: 2.9vw;
+    .header__menu-item {
+        margin-left: 10px;
     }
-
+    .fa-earth-americas {
+        font-size: 3vw;
+    }
+    .fa-bars {
+        font-size: 25px;
+    }
 
     .left-header {
         font-size: 3.5vw;
@@ -75,10 +94,22 @@
     .left-body {
         font-size: 3vw;
     }
+
 }
 
 
 @media (max-width:376px) {
+    .fa-earth-americas {
+        font-size: 5vw;
+    }
+
+    .adaptive-buttons{
+        padding: 5px 12px;
+    }
+    .header__buttons-sign-in{
+        padding: 8px 18px;
+        font-size: 0.9rem;
+    }
 
     .left-header {
         font-size: 5vw;
@@ -86,5 +117,6 @@
     .left-body {
         font-size: 4vw;
     }
+
 }
 /*--------------Adaptive end-------------------*/
