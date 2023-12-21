@@ -5,6 +5,7 @@
         font-size: 1.7vw;
     }
 
+
     .left-header {
         font-size: 2vw;
     }
@@ -13,11 +14,18 @@
     }
 
 
+
+    .block-about-header{
+        font-size: 2.7vw;
+    }
+    .block-about-text{
+        font-size: 1.6vw; 
+    }
 }
 
 @media (max-width:810px) {
     .header {
-        font-size: 2.3vw;
+        font-size: 1.3rem;
     }
     .header__menu-item {
         display: none;
@@ -28,8 +36,7 @@
         margin-left: 1rem;
     }
     .fa-bars {
-        font-size: 20px;
-        
+        font-size: 1.7rem;
     }
     .language {
         display: block;
@@ -42,10 +49,10 @@
         display: none;
     }
     .fa-earth-americas {
-        font-size: 1.7vw;
+        font-size: 1.2rem;
     }
     .fa-xmark {
-        font-size: 3vw;
+        font-size: 1.7rem;
     }
 
 
@@ -56,63 +63,89 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-bottom: 150px;
     }
     .left-header {
         width: 100%;
-        font-size: 2.8vw;
+        font-size: 1.5rem;
         text-align: center;
     }
     .left-body {
         width: 100%;
         text-align: center;
-        font-size: 2.4vw;
+        font-size: 1.2rem;
     }
 
+
+
+    .block-about-header{
+        font-size: 2.1rem;
+    }
+    .block-about-text{
+        font-size: 1.2rem; 
+    }
+    .block-about-img {
+        display: none;
+    }
+    .main__block-about {
+        height: auto;
+        margin-bottom: 150px;
+    }
+    .block-about-text {
+        padding-bottom: 3%;
+    }
 }
 
 @media (max-width:500px) {
     .header {
-        font-size: 3.4vw;
+        font-size: 1.2rem;
     }
     .header__menu-item {
         margin-left: 10px;
     }
-    .fa-earth-americas {
-        font-size: 3vw;
-    }
-    .fa-bars {
-        font-size: 25px;
+    .adaptive-buttons{
+        display: none;
     }
 
+
     .left-header {
-        font-size: 3.5vw;
+        font-size: 1.3rem;
     }
-    .left-body {
-        font-size: 3vw;
+    
+
+
+    .block-about-header{
+        font-size: 2rem;
     }
+    .block-about-text{
+        font-size: 1.2rem; 
+    }
+
 
 }
 
 
-@media (max-width:376px) {
+@media (max-width:400px) {
     .fa-earth-americas {
         font-size: 5vw;
-    }
-
-    .adaptive-buttons{
-        padding: 5px 12px;
     }
     .header__buttons-sign-in{
         padding: 8px 18px;
         font-size: 0.9rem;
     }
 
+
+
     .left-header {
         font-size: 5vw;
     }
-    .left-body {
-        font-size: 4vw;
-    }
 
+
+    .block-about-header{
+        font-size: 1.7rem;
+    }
+    .block-about-text{
+        font-size: 5.5vw; 
+    }
 }
 /*--------------Adaptive end-------------------*/
