@@ -17,7 +17,7 @@
     }
 
     .tarifs__cards {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(240px,500px);
     }
 
 }
