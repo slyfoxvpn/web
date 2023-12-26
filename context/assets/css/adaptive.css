@@ -16,6 +16,10 @@
         grid-template-columns: repeat(2,minmax(240px,300px));
     }
 
+    .tarifs__cards {
+        grid-template-columns: 1fr;
+    }
+
 }
 
 @media (max-width:940px) {
@@ -97,11 +101,26 @@
     .advanages__cards {
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-columns: minmax(230px,330px);
+        height: auto;
     }
     .advanages__card {
         height: 450px;
     }
 
+
+    .tarifs__card {
+        padding: 28px 25px;
+        height: 500px;
+    }
+    .wrap-tarifs__card-body {
+        padding: 20px;
+    }
+    .tarifs__card-body {
+        font-size: 16px;
+    }
+    .tarifs__card-button {
+        margin-top: 70px;
+    }
 }
 
 

@@ -5,8 +5,15 @@
     padding: 0;
     font-family: 'Mulish', sans-serif;
 }
+a {
+    text-decoration: none;
+    color: #000;
+}
 h1,h2,h3,h4 {
     font-size: 16px;
+}
+.wrap-gray {
+    background-color: #ebebeb;
 }
 .container {
 
@@ -290,10 +297,83 @@ h1,h2,h3,h4 {
 
 
 .tarifs {
-    width: 80%;
+    padding: 3% 0;
+    width: 70%;
     margin: 0 auto;
     margin-top: 120px;
     margin-bottom: 120px; 
+}
+
+.tarifs__header {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.tarifs__cards {
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 60px;
+}
+.tarifs__card {
+    height: 600px;
+    padding: 28px 45px;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    border-radius: 12px;
+}
+.tarifs__card-title {
+    text-align: center;
+    padding: 24px 0 12px;
+    margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: 500;
+}
+.wrap-tarifs__card-body {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 200px;
+    background-color: #ebebeb;
+    border-radius: 12px;
+    padding: 14px;
+    
+}
+.tarifs__card-body {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.tarifs__card:nth-child(4) {
+    color: white;
+    background-color: #232323;
+    border: 1px solid #3f3f3f;
+    box-shadow:0 0 20px #555;
+}
+.wrap-tarifs__card-body-4 {
+    color: #000;
+    background-color: #ffffff;
+
+}
+.tarifs__card-button {
+    margin-top: 120px;
+    text-align: center;
+}
+.card-button_light {
+    background-color: #fff;
+    color: #000;
+    padding: 13px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.card-button_dark {
+    background-color: #232323;
+    color: #fff;
+    padding: 13px 30px;
+    border-radius: 10px;
+    font-size: 18px;
 }
 /*--------------Main end-------------------*/
 
