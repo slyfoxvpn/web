@@ -117,7 +117,7 @@ h1,h2,h3,h4 {
     z-index: 100;
 }
 .fa-earth-americas {
-    font-size: 1.2vw;
+    font-size: 1rem;
     color:#000;
 }
 .adaptive-buttons {
@@ -312,8 +312,8 @@ h1,h2,h3,h4 {
 .tarifs__cards {
     justify-content: space-around;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
+    grid-template-columns: repeat(2,minmax(400px,500px));
+    column-gap: 15px;
     row-gap: 60px;
 }
 .tarifs__card {
@@ -345,7 +345,11 @@ h1,h2,h3,h4 {
     font-size: 18px;
     font-weight: 400;
 }
-
+.tarifs__card-price {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
+}
 .tarifs__card:nth-child(4) {
     color: white;
     background-color: #232323;
