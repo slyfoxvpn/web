@@ -1,29 +1,28 @@
 /*--------------Adaptive start-------------------*/
-@media (max-width:1024px) {
-    .header {
-        padding: 0 20px;
-        font-size: 1.7vw;
-    }
-
-
-    .left-header {
-        font-size: 2vw;
-    }
-    .left-body {
-        font-size: 1.6vw;
-    }
-
-
-
-    .block-about-header{
-        font-size: 2.7vw;
-    }
-    .block-about-text{
-        font-size: 1.6vw; 
-    }
+@media (max-width: 2160px) {
+    
 }
 
-@media (max-width:810px) {
+@media (max-width:1024px) {
+    .header {
+        padding: 0 15px;
+    }
+
+
+    
+
+    .advanages__cards {
+        height: 800px;
+        grid-template-columns: repeat(2,minmax(240px,300px));
+    }
+
+    .tarifs__cards {
+        grid-template-columns: minmax(240px,500px);
+    }
+
+}
+
+@media (max-width:940px) {
     .header {
         font-size: 1.3rem;
     }
@@ -35,9 +34,6 @@
         display: block;
         margin-left: 1rem;
     }
-    .fa-bars {
-        font-size: 1.7rem;
-    }
     .language {
         display: block;
         margin-left: 1rem;
@@ -48,14 +44,15 @@
     .header__buttons {
         display: none;
     }
+    .fa-bars {
+        font-size: 1.7rem;
+    }
     .fa-earth-americas {
         font-size: 1.2rem;
     }
     .fa-xmark {
         font-size: 1.7rem;
     }
-
-
 
 
 
@@ -67,23 +64,16 @@
     }
     .left-header {
         width: 100%;
-        font-size: 1.5rem;
         text-align: center;
     }
     .left-body {
         width: 100%;
         text-align: center;
-        font-size: 1.2rem;
     }
 
 
 
-    .block-about-header{
-        font-size: 2.1rem;
-    }
-    .block-about-text{
-        font-size: 1.2rem; 
-    }
+
     .block-about-img {
         display: none;
     }
@@ -97,9 +87,6 @@
 }
 
 @media (max-width:500px) {
-    .header {
-        font-size: 1.2rem;
-    }
     .header__menu-item {
         margin-left: 10px;
     }
@@ -108,44 +95,34 @@
     }
 
 
-    .left-header {
-        font-size: 1.3rem;
+
+
+
+    .advanages__cards {
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: minmax(230px,330px);
+        height: auto;
     }
-    
-
-
-    .block-about-header{
-        font-size: 2rem;
-    }
-    .block-about-text{
-        font-size: 1.2rem; 
-    }
-
-
-}
-
-
-@media (max-width:400px) {
-    .fa-earth-americas {
-        font-size: 5vw;
-    }
-    .header__buttons-sign-in{
-        padding: 8px 18px;
-        font-size: 0.9rem;
+    .advanages__card {
+        height: 450px;
     }
 
 
-
-    .left-header {
-        font-size: 5vw;
+    .tarifs__card {
+        padding: 28px 25px;
+        height: 500px;
     }
-
-
-    .block-about-header{
-        font-size: 1.7rem;
+    .wrap-tarifs__card-body {
+        padding: 20px;
     }
-    .block-about-text{
-        font-size: 5.5vw; 
+    .tarifs__card-body {
+        font-size: 16px;
+    }
+    .tarifs__card-button {
+        margin-top: 70px;
     }
 }
+
+
+
 /*--------------Adaptive end-------------------*/
